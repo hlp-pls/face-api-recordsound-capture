@@ -1,0 +1,38 @@
+
+canvas{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+video{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.information{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 15px;
+	z-index: 1;
+	line-height: 1.4;
+	font-size: 12pt;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#sound:hover{
+	cursor: pointer;
+	background-color: rgb(255,255,0);
+}
+
+#record:hover{
+	cursor: pointer;
+	background-color: rgb(255,255,0);
+}
+
+#capture:hover{
+	cursor: pointer;
+	background-color: rgb(255,255,0);
+}
